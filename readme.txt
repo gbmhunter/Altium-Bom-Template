@@ -32,6 +32,7 @@ WHEN EDITING MACRO TEMPLATE FILE
 - Make sure to save the macros as part of the sheet, not the workbook.
 - Do not rename the sheet (leave as "Sheet1")
 - Always save with the extension ".xlt" (excel template file), as Altium requires this
+- Leave all columns unhiden. If columns are hidden, Atlium will not auto-fill them with component parameters.
 
 The macros could of been designed to run as soon as Altium fills in the cells, but the advantages of running the macros on a user's button press is as follows:
 1) If something goes wrong when the macros are running (e.g. null or out-of-bounds exception due to inforrect data), Altium will not lock-up
