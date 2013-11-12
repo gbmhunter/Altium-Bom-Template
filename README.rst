@@ -5,7 +5,7 @@ Altium BOM Template
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/06/12
 - Last Modified: 2013/11/12
-- Version: v3.0.1.2
+- Version: v3.1.0.0
 - Company: CladLabs
 - Project: Free Code Libraries	.
 - Language: Excel
@@ -86,6 +86,7 @@ Changelog
 ========= ========== ============================================================================================================
 Version   Date       Comment
 ========= ========== ============================================================================================================
+v3.1.0.0  2013/11/12 Added support for partial quantities, with the addition of a QuantityMultiplier parameter to the relevant components.
 v3.0.1.2  2013/11/12 Replaced spaces with tabs in incorrectly rendered bullet-point list in README.
 v3.0.1.1  2013/11/12 Split README in v1.0 and v2.0 sections. Attempted to fix the markup error in the README.
 v3.0.1.0  2013/11/12 Fixed issue in where Supplier Sub-total price was taking into account the production quantity, where it should really be only the cost per PCB (quantity of a component on a single PCB*price of that component).
