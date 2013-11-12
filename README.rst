@@ -5,7 +5,7 @@ Altium BOM Template
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/06/12
 - Last Modified: 2013/11/12
-- Version: v3.1.0.0
+- Version: v3.2.0.0
 - Company: CladLabs
 - Project: Free Code Libraries	.
 - Language: Excel
@@ -86,6 +86,7 @@ Changelog
 ========= ========== ============================================================================================================
 Version   Date       Comment
 ========= ========== ============================================================================================================
+v3.2.0.0  2013/11/12 Added button to hide/unhide helper information. Renamed the v2.0 template.
 v3.1.0.0  2013/11/12 Added support for partial quantities, with the addition of a QuantityMultiplier parameter to the relevant components.
 v3.0.1.2  2013/11/12 Replaced spaces with tabs in incorrectly rendered bullet-point list in README.
 v3.0.1.1  2013/11/12 Split README in v1.0 and v2.0 sections. Attempted to fix the markup error in the README.
