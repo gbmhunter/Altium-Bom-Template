@@ -4,8 +4,8 @@ Altium BOM Template
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/06/12
-- Last Modified: 2013/11/08
-- Version: v2.0.0.0
+- Last Modified: 2013/11/12
+- Version: v2.0.1.0
 - Company: CladLabs
 - Project: Free Code Libraries	.
 - Language: Excel
@@ -75,6 +75,7 @@ Changelog
 ========= ========== ============================================================================================================
 Version   Date       Comment
 ========= ========== ============================================================================================================
+v2.0.1.0  2013/11/12 Deleted .hgignore file left over from Mercurial repo.
 v2.0.0.0  2013/11/08 Converted Mercurial repo to Git repo. Updated readme.txt to README.txt and formatted to match other project README's. Added changelog information, taken from commit comments.
 v1.8.0.0  2012/11/18 Added ability to hide/unhide supplier 1 details. Moved quantity column to before supplier info.
 v1.7.1.0  2012/11/18 Unhid all columns, as Altium won't auto-fill hidden columns.
