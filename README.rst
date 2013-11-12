@@ -5,7 +5,7 @@ Altium BOM Template
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/06/12
 - Last Modified: 2013/11/12
-- Version: v3.0.1.1
+- Version: v3.0.1.2
 - Company: CladLabs
 - Project: Free Code Libraries	.
 - Language: Excel
@@ -35,13 +35,13 @@ HOW TO GENERATE BOM:
 - 	Make sure the correct parameters are to be included in the BOM. This BOM macro requires supplier linked components. The parameters are
    
 	- Designator
-   - Description (supplier linked param)
-   - Manufacturer (supplier linked param)
-   - Manufacturer Part Number (supplier linked param)
-   - Supplier 1 (supplier linked param)
-   - Supplier Part Number 1 (supplier linked param)
-   - Pricing 1 (supplier linked param, this one needs special consideration, see below)   
-   - Quantity
+	- Description (supplier linked param)
+	- Manufacturer (supplier linked param)
+	- Manufacturer Part Number (supplier linked param)
+	- Supplier 1 (supplier linked param)
+	- Supplier Part Number 1 (supplier linked param)
+	- Pricing 1 (supplier linked param, this one needs special consideration, see below)   
+	- Quantity
 	
 - Add a project parameter called "Reference" and give it a recognisable project id as it's value
 - Run Altium BOM generation
@@ -86,6 +86,7 @@ Changelog
 ========= ========== ============================================================================================================
 Version   Date       Comment
 ========= ========== ============================================================================================================
+v3.0.1.2  2013/11/12 Replaced spaces with tabs in incorrectly rendered bullet-point list in README.
 v3.0.1.1  2013/11/12 Split README in v1.0 and v2.0 sections. Attempted to fix the markup error in the README.
 v3.0.1.0  2013/11/12 Fixed issue in where Supplier Sub-total price was taking into account the production quantity, where it should really be only the cost per PCB (quantity of a component on a single PCB*price of that component).
 v3.0.0.0  2013/11/12 Renamed 'Altium BOM Template.xlt' to 'Altium BOM Template v1.0.xlt' and added 'Altium BOM Template v2.0 (vault compatible).xlt' which is compatible with vault-stored supplier information. v2.0 only has basic functionality, need to fix supplier sub-totals and add support for partial components.
